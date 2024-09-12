@@ -95,7 +95,6 @@ def min_max(normalization_reference):
     min_maxanomaly_float = min(min_maxanomaly_list)
     max_maxanomaly_float = max(max_maxanomaly_list)
     
-    # Print the overall results
     print(f"Min maximum precipitation anomaly: {min_maxanomaly_float}, Max maximum precipitation anomaly: {max_maxanomaly_float}")
 
     return min_maxanomaly_float, max_maxanomaly_float
